@@ -1,0 +1,329 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  background: rgb(21, 150, 42);
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+}
+
+.header__ttl {
+
+  background: #333;
+  color: #fff;
+  padding: 36px;
+  font-size: 16px;
+}
+
+.gnav__nav {
+  display: flex;
+  list-style-type: none;
+
+}
+
+.gnav__list {
+  margin-right: 24px;
+}
+
+.gnav__link {
+  color: #fff;
+   text-decoration:none
+}
+
+/* =====ここまでヘッダー====== */
+
+.mv {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  padding-left: 264px;
+  background: url(img/mv2.jpg) center center /cover;
+}
+
+.mv__catch {
+  font-size: 40px;
+  letter-spacing: .6em;
+  line-height: 2.4;
+}
+
+.mv__sub {
+  letter-spacing: 1.2em;
+  font-size: 13px;
+}
+
+/* ===ここまでmain=== */
+
+.sec1 {
+  /* display:flex;
+  flex-direction:column;
+  align-items:center; */
+  margin-bottom: 100px;
+}
+
+.sec1__ttl {
+
+  text-align: center;
+  width: 100%;
+  padding: 80px 0;
+}
+
+.sec1__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 300px;
+  margin-bottom: 30px;
+
+}
+
+.sec1__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+}
+
+.sec1__sub {
+
+  margin-bottom: 50px;
+  padding: 20px 60px 0 60px;
+  font-size: 25px;
+  letter-spacing: 20px;
+  border: 1px dotted #fff;
+  border-bottom: none;
+  border-left: none;
+}
+
+.sec1__pic {
+  margin-bottom: 30px;
+  width: 100px;
+  height: 100px;
+}
+
+.sec1__img {
+  width: 100%;
+  height: 100%;
+}
+
+.sec1__txt {
+  margin-bottom: 30px;
+}
+
+.sec1__link {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+
+}
+
+
+.sec1__btn {
+  display: inline-block;
+  margin-bottom: 30px;
+  padding: 12px 20px;
+  text-decoration: none;
+  background: #fff;
+  color: #333;
+}
+
+/* ===ここまでsec１=== */
+.sec2 {
+  background: rgb(8, 177, 28)
+}
+
+.sec2__bg {
+  height: 250px;
+  background: url(img/sec2__bg2.jpg) center center/cover;
+}
+
+.sec2__ttl {
+  text-align: center;
+  width: 100%;
+  padding: 80px 0;
+}
+
+.sec2__container {
+  display: flex;
+  justify-content: center;
+  height:700px;
+  padding: 0 600px;
+  margin-bottom: 1200 auto;
+}
+
+.sec2__box1,
+.sec2__box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 50px;
+
+}
+
+.sec2__box2 {
+  align-self:flex-end;
+
+
+
+}
+
+.sec2__sub {
+  margin-bottom: 50px;
+  padding: 20px 60px 0 60px;
+  font-size: 25px;
+  letter-spacing: 20px;
+  border: 1px dotted #fff;
+  border-bottom: none;
+  border-left: none;
+
+}
+
+.sec2__pic {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  position: relative;
+   width: 400px;
+  height:400px;
+
+}
+
+.sec2__pic::after {
+  content: "image";
+  position: absolute;
+  /* top:0;
+  right: 0; */
+  border: 1px solid #fff;
+  border-right: none;
+  border-left: none;
+  font-size: 30px;
+  width: 150px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.344);
+
+
+}
+
+.sec2__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* =============== */
+.sec3 {
+  height: 60vh;
+}
+
+.sec3__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+
+
+}
+
+.sec3__box {
+  padding-left: 400px;
+  padding-top: 158px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.sec3__ttl {
+  position: relative;
+  font-size: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  letter-spacing: 7px;
+}
+
+
+.sec3__ttl::after {
+  content: '';
+border:1px solid #fff;
+  position: absolute;
+  top:20px;
+width:130px;
+}
+
+.sec3__box2,
+.sec3__box3 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-right: 20px;
+  padding-top: 158px;
+}
+
+.sec3__box3 {
+  padding-right: 100px;
+}
+
+.sec3__dt {
+  font-size: 40px;
+  margin-bottom: 70px;
+  letter-spacing: 7px;
+}
+
+.sec3__span {
+  font-size: 20px;
+}
+/* ================== */
+.sec4__footer{
+  background-color:#000;
+}
+
+.sec4__ttl{
+  padding-top:30px;
+  font-size:35px;
+  text-align:center;
+  letter-spacing:7px;
+}
+
+.sec4__box{
+  display:flex;
+  justify-content: space-between;
+  padding:0 500px 0 500px;
+}
+
+.sec4__nav{
+   list-style-type: none;
+   padding:50px 0 50px 0;
+}
+
+.sec4__list{
+   padding:25px 0 25px 0;
+}
+.sec4__link{
+  color:#fff;
+  text-decoration:none
+}
+
+
+
+
+
+.copy{
+font-size:2px;
+  text-align:center;
+  letter-spacing:2px;
+ background-color:rgb(56, 56, 40) ;
+}
